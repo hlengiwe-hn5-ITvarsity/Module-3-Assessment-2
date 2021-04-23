@@ -1,0 +1,369 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/Starter6_Landscape_Restaurant-1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-color: #000407;
+
+    width: 100%;
+    height: 78px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 20xp 0px 0px 20px;
+}
+
+.header img{
+    width: 300px;
+    height: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+}
+
+
+/*==========HOME-PAGE-MENU===============*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: rgb(26, 116, 116);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(75, 73, 73);
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+/*==========FINE-DINING-MENU===============*/
+
+#home{
+    padding-top: 130px;
+    background-image: url('images/Starter6_Landscape_Restaurant-1.jpg');
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.body-fine-dining-menu{
+    background-image: url('images/fine-dining/alinea-dining-experience.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fine-dining-menu{
+    padding-top: 130px;
+}
+
+.body-starter{
+    padding-top: 80px;
+}
+
+.body-soup{
+    padding-top: 80px;
+}
+
+.body-main-meal{
+    padding-top: 80px;
+}
+
+/*==========COLD-BEVERAGES-MENU===============*/
+
+.body-cold-beverages-menu{
+    background-image: url('images/cold-beverages/Real-Kombucha-taps-into-fine-dining-with-food-pairings.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cold-beverages-menu{
+    padding-top: 130px;
+}
+
+.body-juice{
+    padding-top: 80px;
+}
+
+.body-soft-drinks{
+    padding-top: 80px;
+}
+
+.body-wine-and-cocktail{
+    padding-top: 80px;
+}
+
+/*==========DESSERT-MENU===============*/
+
+.body-dessert-menu{
+    background-image: url('images/desserts/baked-ricotta-cake-136671-1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dessert-menu{
+    padding-top: 130px;
+}
+
+.body-cake{
+    padding-top: 80px;
+}
+
+.body-ice-cream{
+    padding-top: 80px;
+}
+
+.body-pastry{
+    padding-top: 80px;
+}
+
+/*=================MESSAGE===============*/
+
+.body-message{
+    background-image: url('images/Starter6_Landscape_Restaurant-1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#order-message ph{
+    color: antiquewhite;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+    color:chartreuse
+}
+
+/*=============RESPONSIVE-LAYOUT================*/
+
+@media only screen and (min-width: 600px){
+    .fine-dining-menu{
+        width: 80%; 
+        margin: auto;
+     }
+ 
+     #starter{
+         width: 80%;
+         margin: auto;
+     } 
+     
+     #soup{
+        width: 80%;
+        margin: auto;
+    }
+
+    #main-meal{
+        width: 80%;
+        margin: auto;
+    }
+
+    .dessert-menu{
+        width: 80%; 
+        margin: auto;
+     }
+ 
+     #cakes{
+         width: 80%;
+         margin: auto;
+     } 
+     
+     #ice-cream{
+        width: 80%;
+        margin: auto;
+    }
+
+    #pastry{
+        width: 80%;
+        margin: auto;
+    }
+
+    .cold-beverages-menu{
+        width: 80%; 
+        margin: auto;
+     }
+ 
+     #juice{
+         width: 80%;
+         margin: auto;
+     } 
+     
+     #soft-drinks{
+        width: 80%;
+        margin: auto;
+    }
+
+    #wine-and-cocktail{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .fine-dining-menu{
+        width: 60%; 
+        margin: auto;
+     }
+ 
+     #starter{
+         width: 60%;
+         margin: auto;
+     } 
+     
+     #soup{
+        width: 60%;
+        margin: auto;
+    }
+
+    #main-meal{
+        width: 60%;
+        margin: auto;
+    }
+
+    .dessert-menu{
+        width: 60%; 
+        margin: auto;
+     }
+ 
+     #cakes{
+         width: 60%;
+         margin: auto;
+     } 
+     
+     #ice-cream{
+        width: 60%;
+        margin: auto;
+    }
+
+    #pastry{
+        width: 60%;
+        margin: auto;
+    }
+
+    .cold-beverages-menu{
+        width: 60%; 
+        margin: auto;
+     }
+ 
+     #juice{
+         width: 60%;
+         margin: auto;
+     } 
+     
+     #soft-drinks{
+        width: 60%;
+        margin: auto;
+    }
+
+    #wine-and-cocktail{
+        width: 60%;
+        margin: auto;
+    }  
+}
+
+@media only screen and (min-width: 1500px){
+    .fine-dining-menu{
+        width: 40%; 
+        margin: auto;
+     }
+ 
+     #starter{
+         width: 40%;
+         margin: auto;
+     } 
+     
+     #soup{
+        width: 40%;
+        margin: auto;
+    }
+
+    #main-meal{
+        width: 40%;
+        margin: auto;
+    }
+
+    .dessert-menu{
+        width: 40%; 
+        margin: auto;
+     }
+ 
+     #cakes{
+         width: 40%;
+         margin: auto;
+     } 
+     
+     #ice-cream{
+        width: 40%;
+        margin: auto;
+    }
+
+    #pastry{
+        width: 40%;
+        margin: auto;
+    }
+
+    .cold-beverages-menu{
+        width: 40%; 
+        margin: auto;
+     }
+ 
+     #juice{
+         width: 40%;
+         margin: auto;
+     } 
+     
+     #soft-drinks{
+        width: 40%;
+        margin: auto;
+    }
+
+    #wine-and-cocktail{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+
+
+
